@@ -20,13 +20,14 @@ $('#submit').on('click', () => {
 	let ans9 = $('#quest9').val().trim();
 	let ans10 = $('#quest10').val().trim();
 
-	if (userName === "" || imag === "" || ans1 === "" || ans2 === "" || ans3 === "" || ans4 === "" || ans5 === "") {
+	if (userName === "" || imag === "" || ans1 === "" || ans2 === "" || ans3 === "" || ans4 === "" || ans5 === ""
+		ans6 === "" || ans7 === "" || ans8 === "" ans9 === "" || ans10 === "") {
 		alert("Please fill in all fields");	
 	} else {
 		newUser = {
 			name: userName,
 			photo: imag,
-			scores: [ans1, ans2, ans3, ans4, ans5]
+			scores: [ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10]
 		};
 
 		findFriend(newUser.scores);
