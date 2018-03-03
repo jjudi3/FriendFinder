@@ -79,7 +79,7 @@ function calcScoreDiff(user, friend) {
 	let diff = 0;
 	let count = 0;
 
-	for (var i = 0; i < 10; i++) {
+	for (var i = 0; i < 5; i++) {
 		diff += Math.abs(user[i] - friend.scores[i]);
 		count++;
 	}
