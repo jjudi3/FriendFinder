@@ -1,4 +1,4 @@
-let friends = [
+var friends = [
 {
   "name":"Sue Smith",
   "photo":"https://thumb9.shutterstock.com/display_pic_with_logo/1595666/230098735/stock-photo-closeup-of-a-mature-woman-smiling-at-the-camera-230098735.jpg",
