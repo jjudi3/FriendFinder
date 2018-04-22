@@ -80,12 +80,12 @@ function calcScoreDiff(user, friend) {
 	let diff = 0;
 	let count = 0;
 
-	for (var i = 0; i < 5; i++) {
+	for (var i = 0; i < 10; i++) {
 		diff += Math.abs(user[i] - friend.scores[i]);
 		count++;
 	}
 
-	if (count === 5) {
+	if (count === 10) {
 		if (diff < bestFriend.diff) {
 			bestFriend.diff = diff;
 			bestFriend.name = friend.name;
