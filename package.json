@@ -2,16 +2,23 @@
   "name": "friendfinder",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "4.16.2"
-  },
-  "devDependencies": {},
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjudi3/FriendFinder.git"
+  },
+  "author": "Judi Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjudi3/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/jjudi3/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
 }
